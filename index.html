@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta descripton="этот сайт является одностраничным резюме">
+    <meta keywords="resume, site">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Резюме</title>
+</head>
+
+<body>
+
+    <header class=" header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <div class="container">
+        <div class="first-card">
+          <img src="images/avatar.jpeg"
+            alt="Красивая фотография автора сайта" class="avatar" width="250px" height="333">
+    
+          <div class="about-info-text">
+    
+            <h1 class="info-text">Sokolov Mikhail</h1>
+            <p class="info-text">Я начинающий веб-разработчик. Имел опыт работы с такими языками программирования как
+              <strong>PHP, SQL, C++, C#, Java, JavaScript, CSS, HTML.</strong>
+              <br><br>
+              Стараюсь постоянно <em>разбираться с проблемами самостоятельно, изучать что-то новое</em> .
+            </p>
+            <div class="info-text-img">
+              <div class="social-link-wrapper">
+                <a class="icons-vk" href="https://vk.com/roflerboom" target="_blank">
+                  <img src="images/vk.svg"
+                    alt="vkontakte" width="60px">
+                  
+                </a>
+    
+              </div>
+              <div class="social-link-wrapper">
+                <a class="icons-tg" href="https://t.me/roflerboom" target="_blank">
+                  <img src="images/telegram.svg"
+                    alt="telegram" width="60px"></a>
+              </div>
+              <div class="social-link-wrapper">
+                <a class="icons-git" href="https://github.com/roflerboom" target="_blank">
+                  <img src="images/github.svg"
+                    alt="github" width="60px"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <p>
+        <h2>На чем специализируюсь:</h2>
+        <ol class="list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+        <h2>Хобби:</h2>
+        <ul class="list">
+            <li>Аниме</li>
+            <li>Ониме</li>
+            <li>Анимэ</li>
+        </ul>
+        </p>
+    </div>
+
+
+    <div class="container">
+
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+                <th>Проект</th>
+                <th>Языки</th>
+                <th>Год</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Willdberries</td>
+                    <td>HTML, CSS, JS, Bootstrap</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Simple life</td>
+                    <td>HTML, CSS, PHP, SQL</td>
+                    <td>2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container">
+
+
+        <form class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="text">Ваше имя:</label>
+                    <input class="textarea" type="text" id="text" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваша почта:</label>
+                    <input class="textarea" type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea class="textarea" id="message" cols="30" rows="5"
+                    placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
